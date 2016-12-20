@@ -25,3 +25,24 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+body {
+  background-image: url('images/disco-dancefloor.jpg');
+  background-size: cover;
+}
+
+.tinyDancer {
+  width: 10%;
+  height: 10%;
+  opacity: 0.5;
+}
+
+.crazyDancer {
+  
+}
+
+.drizzyDancer {
+  width: 15%;
+  height: 15%;
+  opacity: 0.35;
+}
