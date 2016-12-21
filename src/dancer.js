@@ -28,6 +28,6 @@ Dancer.prototype.lineUp = function(top, left) {
   this.$node.css(styleSettings);
 };
 
-Dancer.prototype.remove = function() {
-  // want this method to erase current dancers, on click of 'clear dance floor' button
-};
+// Dancer.prototype.zoom = function() {
+
+// };

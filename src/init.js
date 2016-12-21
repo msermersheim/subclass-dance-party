@@ -39,14 +39,16 @@ $(document).ready(function() {
     });
   });
 
-  $('.removeButton').on('click', function(event) {
-    window.dancers = [];
-  });
+  // $('.removeButton').on('click', function(event) {
+  //   window.dancers = [];
+  // });
 
-  $('.dancer').on('click', function(event) {
-    $(this).width(1000);
-    $(this).height(1000);
-  });
+  // $('this').on('click', function(event) {
+  //   $('this').animate({
+  //     "width": "1000 px",
+  //     "height": "1000 px"
+  //   }, "slow");
+  // });
 
 });
 
