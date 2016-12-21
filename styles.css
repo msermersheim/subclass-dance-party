@@ -68,3 +68,10 @@ body {
 .owlDancer {
   position: absolute;
 }
+
+img:hover {
+  height: 200px;
+  width: 200px;
+  transition: 2s;
+  transform: rotate(360deg);
+}

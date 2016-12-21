@@ -39,6 +39,17 @@ $(document).ready(function() {
     });
   });
 
+
+  $(document).on('click', function(event) {
+    window.dancers.sort(function(a, b) {
+      return a.left - b.left;
+    })
+    for (var i = 0; i < window.dancers.length; i++) {
+      console.log(window.dancers[i])
+    }
+  })
+
+
   // $('.removeButton').on('click', function(event) {
   //   window.dancers = [];
   // });
