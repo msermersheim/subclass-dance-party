@@ -51,3 +51,20 @@ body {
   opacity: 0.35;
   position:absolute;
 }
+
+.lizardDancer {
+  position:absolute;
+}
+
+.addDancerButton {
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.roboDancer {
+  position:absolute;
+}
+
+.owlDancer {
+  position: absolute;
+}

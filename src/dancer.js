@@ -23,7 +23,11 @@ Dancer.prototype.setPosition = function(top, left) {
 
 Dancer.prototype.lineUp = function(top, left) {
   var styleSettings = {
-    top, left: 0
+    top: 500, left: 400
   };
   this.$node.css(styleSettings);
+};
+
+Dancer.prototype.remove = function() {
+  // want this method to erase current dancers, on click of 'clear dance floor' button
 };

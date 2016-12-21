@@ -38,5 +38,18 @@ $(document).ready(function() {
       dancer.lineUp();
     });
   });
+
+  $('.removeButton').on('click', function(event) {
+    window.dancers = [];
+  });
+
+  $('.dancer').on('click', function(event) {
+    $(this).width(1000);
+    $(this).height(1000);
+  });
+
 });
 
+// $('.zoomButton').on('click', function(event) {
+
+// })
