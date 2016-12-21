@@ -35,14 +35,19 @@ body {
   width: 10%;
   height: 10%;
   opacity: 0.5;
+  position:absolute;
 }
 
 .crazyDancer {
-  
+  width: 15%;
+  height: 15%;
+  opacity: 0.35;
+  position:absolute;
 }
 
 .drizzyDancer {
   width: 15%;
   height: 15%;
   opacity: 0.35;
+  position:absolute;
 }
